@@ -47,29 +47,24 @@ export default function Home() {
       </div>
 
       <div>
-        <Card
-          className="w-full"
-          children={
-            <div className="flex items-center gap-6">
-              <Image className="rounded-lg" src={whatis} height={400} alt="" />
-              <div>
-                <div
-                  className={`font-bold text-4xl mb-3 ${firaCode.className}`}
-                >
-                  What is MADHACK?
-                </div>
-                <div className="text-xl">
-                  Introducing Sri Lanka’s first Mobile Application Development
-                  Hackathon, the IEEE Student Branch of UCSC proudly presents
-                  'MadHack', an inter-university hackathon followed by a series
-                  of workshops. MadHack aims to let the participants put their
-                  creativity and innovation to the test by giving them the
-                  opportunity to develop in any platform of choice.
-                </div>
+        <Card className="w-full">
+          <div className="flex items-center gap-6">
+            <Image className="rounded-lg" src={whatis} height={400} alt="" />
+            <div>
+              <div className={`font-bold text-4xl mb-3 ${firaCode.className}`}>
+                What is MADHACK?
+              </div>
+              <div className="text-xl">
+                Introducing Sri Lanka’s first Mobile Application Development
+                Hackathon, the IEEE Student Branch of UCSC proudly presents
+                'MadHack', an inter-university hackathon followed by a series of
+                workshops. MadHack aims to let the participants put their
+                creativity and innovation to the test by giving them the
+                opportunity to develop in any platform of choice.
               </div>
             </div>
-          }
-        />
+          </div>
+        </Card>
       </div>
 
       <div className="mt-[84px]">
