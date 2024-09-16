@@ -2,14 +2,12 @@ import Image from "next/image";
 import Navbar from "./_components/navbar";
 
 import { Fira_Code } from "next/font/google";
-import { FlipWords } from "@/components/flip-words";
 import { TextGenerateEffect } from "@/components/text-generate";
 import { WobbleCard } from "@/components/wobble-card";
 import { Card } from "@/components/card";
 
 import whatis from "@/assets/whatis.png";
 import { Timeline } from "@/components/timeline";
-import { time } from "@/timeline";
 import { FloatingNav } from "@/components/floating-nav";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import { HoverBorderGradient } from "@/components/hover-boder";
@@ -118,9 +116,9 @@ export default function Home() {
         <div className={`text-4xl font-bold ${firaCode.className} p-4`}>
           Prizes
         </div>
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-3 gap-[80px]">
           <CardContainer className="inter-var">
-            <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+            <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1]  h-auto rounded-xl p-6 border  ">
               <CardItem
                 translateZ="50"
                 className="text-4xl m-auto font-bold bg-gradient-to-bl from-slate-100 to-slate-200 text-transparent bg-clip-text"
@@ -143,7 +141,7 @@ export default function Home() {
           </CardContainer>
 
           <CardContainer className="inter-var">
-            <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+            <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1]  h-auto rounded-xl p-6 border  ">
               <CardItem
                 translateZ="50"
                 className="text-4xl m-auto font-bold bg-gradient-to-bl from-yellow-500 to-yellow-600 text-transparent bg-clip-text"
@@ -166,7 +164,7 @@ export default function Home() {
           </CardContainer>
 
           <CardContainer className="inter-var">
-            <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+            <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1]  h-auto rounded-xl p-6 border  ">
               <CardItem
                 translateZ="50"
                 className="text-4xl m-auto font-bold bg-gradient-to-bl from-amber-700 to-amber-900 text-transparent bg-clip-text"
