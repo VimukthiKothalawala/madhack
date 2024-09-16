@@ -1,11 +1,12 @@
 ## MADHACK
 
-### Vimukthi Kothalawala, vimukthi5859@gmail.com, 2023/CS/095
+### About me
+Vimukthi Kothalawala, vimukthi5859@gmail.com, 2023/CS/095
 
 ### The frameworks you used
 Next JS | Tailwind CSS | Shadcn UI | Aceternity UI
 
-### The frameworks you used
+### The frameworks used
 Instructions to start your app
 ```bash
 npm run dev
